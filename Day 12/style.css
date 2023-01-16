@@ -1,0 +1,169 @@
+.nav-wrapper,
+.navbar {
+  background-color: #1b1c1d;
+}
+
+.navbar a {
+  color: white;
+  margin-right: 2rem;
+}
+.title-div {
+  background-color: #1b1c1d;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30rem;
+}
+.main-content {
+  border: 2px black;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+
+  justify-content: center;
+}
+.left-div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.right-div {
+  height: 100%;
+  aspect-ratio: 1;
+}
+.right-div img {
+  height: 80%;
+  aspect-ratio: 1;
+  object-fit: contain;
+  margin: 1rem;
+}
+
+.link-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.wiki-button {
+  background-color: #7a7a7a;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+}
+.youtube-button {
+  background-color: #db2828;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+}
+
+.books-button {
+  background-color: #f18a14;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+}
+.quote-div {
+  background-color: #1b1c1d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  margin-top: 5rem;
+  color: white;
+}
+
+.achievements-div {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.achievements-div h2 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+.achievements-div h2 span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+.achievements-wrapper {
+  display: flex;
+  column-gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+.achievements {
+  width: 20%;
+  border: 1px solid grey;
+  padding-top: 0.75rem;
+  padding-left: 0.75rem;
+}
+.works-by-poet {
+  display: flex;
+  justify-content: center;
+  column-gap: 5rem;
+  margin-top: 5rem;
+}
+
+.poetry,
+.poems-and-songs {
+  width: 30%;
+}
+.poetry h2,
+.poems-and-songs h2 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid #000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+.poetry h2,
+.poems-and-songs h2 span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+.poetry ul,
+.poems-and-songs ul {
+  margin-top: 2rem;
+}
+
+.footer {
+  background-color: #1b1c1d;
+  display: flex;
+  justify-content: center;
+  column-gap: 5rem;
+  margin-top: 5rem;
+}
+.footer-div {
+  margin-top: 2rem;
+}
+.about-the-author,
+.content-disclaimer {
+  width: 25%;
+}
+.tech-used {
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  padding: 0 2rem 0 2rem;
+}
+.footer-div h3 {
+  color: white;
+}
+.footer-div p {
+  color: white;
+  font-size: 15px;
+}
+.footer-div a {
+  text-decoration: none;
+}
